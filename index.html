@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architectural Patterns and Programming Paradigms for Startups</title>
+    <title>Architectural Patterns and Programming for Startups</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -38,7 +39,7 @@
         }
         h2 {
             color: #333;
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #fff;
             padding-bottom: 10px;
         }
         ul {
@@ -99,18 +100,18 @@
 <body>
     <div class="container">
         <header class="hero">
-            <h2 style="color: #fff">Architectural Patterns and Development Paradigms for Startups</h2>
-            <p>Choose the right architecture and programming paradigm to scale your startup and achieve success.</p>
+            <h2 style="color: #fff"> Architectural Patterns and Software Development for Startups</h2>
+            <p>Explore the right architecture and programming paradigm to scale your startup—let’s succeed together</p>
         </header>
 
         <div class="tabs">
-            <div class="tab active" data-tab="architecture">Architectural Patterns</div>
-            <div class="tab" data-tab="programming">Programming Paradigms</div>
-            <div class="tab" data-tab="services">Services for Startups</div>
+            <div class="tab active" data-tab="architecture"><i class="fas fa-cubes"></i> Architectural Patterns</div>
+            <div class="tab" data-tab="programming"><i class="fas fa-code"></i> Programming Paradigms</div>
+            <div class="tab" data-tab="services"><i class="fas fa-concierge-bell"></i> Services for Startups</div>
         </div>
 
         <section id="architecture" class="tab-content active">
-            <h2>Microservices</h2>
+            <h2><i class="fas fa-cubes"></i> Microservices</h2>
             <p><strong>What It Is:</strong> An architecture that breaks your application into independent, small services communicating via APIs.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -124,7 +125,7 @@
                 <li>Enables faster development by decoupling services.</li>
             </ul>
 
-            <h2>Event-Driven Architecture</h2>
+            <h2><i class="fas fa-bolt"></i> Event-Driven Architecture</h2>
             <p><strong>What It Is:</strong> Components communicate by producing and consuming events, enabling decoupled, asynchronous systems.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -137,7 +138,7 @@
                 <li>Ideal for modern apps requiring real-time data flow.</li>
             </ul>
 
-            <h2>Monolithic Architecture</h2>
+            <h2><i class="fas fa-cube"></i> Monolithic Architecture</h2>
             <p><strong>What It Is:</strong> A single unified codebase where all components are tightly coupled and deployed as one unit.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -149,7 +150,7 @@
                 <li>Minimizes operational overhead and accelerates time-to-market.</li>
             </ul>
 
-            <h2>Serverless Architecture</h2>
+            <h2><i class="fas fa-server"></i> Serverless Architecture</h2>
             <p><strong>What It Is:</strong> An architecture where you rely on managed services for backend execution, paying only for the resources used.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -162,7 +163,7 @@
                 <li>Automatically scales with user demand.</li>
             </ul>
 
-            <h2>Layered (N-Tier) Architecture</h2>
+            <h2><i class="fas fa-layer-group"></i> Layered (N-Tier) Architecture</h2>
             <p><strong>What It Is:</strong> A traditional approach that separates your app into layers like Presentation, Business Logic, and Data Access.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -174,7 +175,7 @@
                 <li>Easier to debug and extend.</li>
             </ul>
 
-            <h2>CQRS (Command Query Responsibility Segregation)</h2>
+            <h2><i class="fas fa-exchange-alt"></i> CQRS (Command Query Responsibility Segregation)</h2>
             <p><strong>What It Is:</strong> Separates the app’s read and write operations into distinct models to optimize performance for each.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -186,7 +187,7 @@
                 <li>Enables real-time updates and scalability for data-heavy apps.</li>
             </ul>
 
-            <h2>Event Sourcing</h2>
+            <h2><i class="fas fa-history"></i> Event Sourcing</h2>
             <p><strong>What It Is:</strong> Stores every change in the application state as an event, enabling a replayable history of changes.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -198,7 +199,7 @@
                 <li>Perfect for compliance-heavy domains like fintech or healthcare.</li>
             </ul>
 
-            <h2>Pipe-and-Filter Architecture</h2>
+            <h2><i class="fas fa-filter"></i> Pipe-and-Filter Architecture</h2>
             <p><strong>What It Is:</strong> Processes data in stages (filters) connected by data flows (pipes), with each filter performing a specific task.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -210,7 +211,7 @@
                 <li>Simplifies complex workflows into manageable steps.</li>
             </ul>
 
-            <h2>Client-Server Architecture</h2>
+            <h2><i class="fas fa-desktop"></i> Client-Server Architecture</h2>
             <p><strong>What It Is:</strong> A traditional one-to-one interaction model where the client sends requests to a centralized server, which processes and responds.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -222,7 +223,7 @@
                 <li>Works well for small teams and tight deadlines.</li>
             </ul>
 
-            <h2>Hexagonal Architecture (Ports and Adapters)</h2>
+            <h2><i class="fas fa-plug"></i> Hexagonal Architecture (Ports and Adapters)</h2>
             <p><strong>What It Is:</strong> A design that isolates core business logic from external dependencies (e.g., frameworks, databases) via ports (interfaces) and adapters.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -236,7 +237,7 @@
         </section>
 
         <section id="programming" class="tab-content">
-            <h2>Object-Oriented Programming (OOP)</h2>
+            <h2><i class="fas fa-object-group"></i> Object-Oriented Programming (OOP)</h2>
             <p><strong>What It Is:</strong> A paradigm based on the concept of "objects", which can contain data and code to manipulate that data.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -249,11 +250,11 @@
                 <li>Languages: Java, C++, Python.</li>
             </ul>
 
-            <h2>Functional Programming</h2>
+            <h2><i class="fa-solid fa-superscript"></i> Functional Programming</h2>
             <p><strong>What It Is:</strong> A paradigm where programs are constructed by applying and composing functions.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
-                <li>When you need to handle complex data transformations.</li>
+                <li></i>When you need to handle complex data transformations.</li>
                 <li>Building applications with a focus on immutability and stateless functions.</li>
             </ul>
             <p><strong>Why It’s Good for Startups:</strong></p>
@@ -262,7 +263,7 @@
                 <li>Languages: Haskell, Scala, JavaScript (with libraries like React).</li>
             </ul>
 
-            <h2>Procedural Programming</h2>
+            <h2><i class="fas fa-code"></i> Procedural Programming</h2>
             <p><strong>What It Is:</strong> A paradigm derived from structured programming, based on the concept of procedure calls.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -275,7 +276,7 @@
                 <li>Languages: C, Pascal.</li>
             </ul>
 
-            <h2>Event-Driven Programming</h2>
+            <h2><i class="fas fa-bell"></i> Event-Driven Programming</h2>
             <p><strong>What It Is:</strong> A paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or message passing.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -288,7 +289,7 @@
                 <li>Languages: JavaScript, C#.</li>
             </ul>
 
-            <h2>Declarative Programming</h2>
+            <h2><i class="fas fa-code-branch"></i> Declarative Programming</h2>
             <p><strong>What It Is:</strong> A paradigm that expresses the logic of a computation without describing its control flow.</p>
             <p><strong>When to Use:</strong></p>
             <ul>
@@ -303,7 +304,7 @@
         </section>
 
         <section id="services" class="tab-content">
-            <h2>Services for Startups</h2>
+            <h2><i class="fas fa-concierge-bell"></i> Services for Startups</h2>
             <p><strong>Cloud & Serverless Solutions:</strong> Expertise in AWS services like Lambda, DynamoDB, S3, API Gateway, RDS, and SQS to build scalable, cost-effective solutions.</p>
             <p><strong>Backend Development:</strong> Proficient in Node.js, TypeScript, JavaScript, and Python to create robust APIs and backend systems.</p>
             <p><strong>Resilient Cloud Solutions:</strong> Design and implement distributed architectures, fault-tolerant systems, and auto-scaling solutions to ensure high availability.</p>
@@ -312,13 +313,13 @@
             <p><strong>Security & Compliance:</strong> Implement security best practices using AWS IAM, Cognito, KMS, Shield, and WAF to protect your applications and data.</p>
             <p><strong>Contact Information:</strong></p>
             <ul>
-                <li>Email: kuandriy@gmail.com</li>
-                <li>LinkedIn: <a href="https://linkedin.com/in/andriy-kudelya" target="_blank">linkedin.com/in/andriy-kudelya</a></li>
+                <li><i class="fas fa-envelope"></i> Email: kuandriy@gmail.com</li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/andriy-kudelya" target="_blank">linkedin.com/in/andriy-kudelya</a></li>
             </ul>
         </section>
 
         <footer>
-            <p>&copy; 2024 Architectural Patterns and Development Paradigms for Startups</p>
+            <p>&copy; 2024 Architectural Patterns and Development Paradigms for Startups <i class="fas fa-heart"></i></p>
         </footer>
     </div>
 
